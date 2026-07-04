@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-// If not logged in, go back to login
 if(!isset($_SESSION['username'])){
     header("Location: index.php");
     exit();
