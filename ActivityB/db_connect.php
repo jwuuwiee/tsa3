@@ -1,8 +1,5 @@
 <?php
-// ============================================
-// Database connection settings
-// Update these to match your local MySQL setup
-// ============================================
+
 $host   = "localhost";
 $dbuser = "root";
 $dbpass = "";
